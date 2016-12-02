@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="w">#FFFFFFFF</color>
+    <color name="tuo_ming">#4DFFFFFF</color>
+    <color name="hei_se">#99000000</color>
+    <color name="hongse">#4DE11212</color>
+</resources>

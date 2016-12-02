@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+    gravity    设置字体位置
+       center_vertical|center_horizontal /  center      横向/竖向居中
+       center_vertical                                  横向居中
+       center_horizontal                                竖向居中
+       left                                             左对齐
+       right                                            右对齐
+       top                                              上对齐
+       bottom                                           下对齐
+    background                                          设置背景  （可颜色/图片/自定义xml）
+
+
+
+    -->
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_weight="1.0"
+        android:layout_height="0dp"
+        android:text="第一"
+        android:background="@mipmap/ic_launcher"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_weight="1.0"
+        android:layout_height="0dp"
+        android:text="第二"
+        android:background="@color/colorAccent"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_weight="1.0"
+        android:layout_height="0dp"
+        android:text="第三"
+        android:background="@color/colorAccent"
+        android:gravity="center"/>
+
+</LinearLayout>

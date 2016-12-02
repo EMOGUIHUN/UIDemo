@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <LinearLayout
+       android:id="@+id/tv_ong"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="情感"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="@color/colorAccent"
+        android:textColor="@color/w"
+        android:textSize="@dimen/font"/>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@color/w">
+           <RelativeLayout
+               android:layout_width="0dp"
+               android:layout_height="50dp"
+               android:layout_weight="1.0">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="最新"
+                   android:textSize="@dimen/font"
+                   android:layout_centerInParent="true"/>
+
+           </RelativeLayout>
+           <RelativeLayout
+               android:layout_width="0dp"
+               android:layout_height="50dp"
+               android:layout_weight="1.0">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="最热门"
+                   android:textSize="@dimen/font"
+                   android:layout_centerInParent="true"/>
+
+           </RelativeLayout>
+           <RelativeLayout
+               android:layout_width="0dp"
+               android:layout_height="50dp"
+               android:layout_weight="1.0">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="我的"
+                   android:textSize="@dimen/font"
+                   android:layout_centerInParent="true"/>
+
+           </RelativeLayout>
+       </LinearLayout>
+   </LinearLayout>
+    <ScrollView
+        android:layout_below="@id/tv_ong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/w">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="别人眼中的幸福"/>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="同事霞是我们办公室公认的幸福女人，老公是一为外科医生，人长得高大帅气，还有......."/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/w">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/jp"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/qw"/>
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="32dp"
+                        android:src="@mipmap/psb"/>
+                    <TextView
+                        android:id="@+id/tv_two"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="鸡翅 "
+                        android:textSize="@dimen/Fonts"/>
+
+                </LinearLayout>
+                <TextView
+                     android:layout_marginTop="15dp"
+                     android:layout_marginLeft="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="广东-茂名"/>
+             <LinearLayout
+                 android:layout_centerVertical="true"
+                 android:layout_alignParentRight="true"
+                 android:orientation="horizontal"
+                 android:layout_width="100dp"
+                 android:layout_height="match_parent">
+                 <ImageView
+                     android:layout_width="15dp"
+                     android:layout_height="15dp"
+                     android:src="@mipmap/cx"
+                     android:layout_gravity="center"/>
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="15dp"
+                     android:text="0"
+                     android:textSize="@dimen/Fonts"/>
+                 <TextView
+                     android:layout_width="1dp"
+                     android:layout_height="15dp"
+                     android:layout_gravity="center"
+                     android:background="@color/hei_se"/>
+             </LinearLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/w">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1.0"
+            android:background="@color/w"
+            android:drawableTop="@mipmap/five3"
+            android:gravity="center"
+            android:text="首页"
+            android:textSize="@dimen/font" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1.0"
+            android:background="@color/w"
+            android:drawableTop="@mipmap/five5"
+            android:gravity="center"
+            android:text="情感"
+            android:textSize="@dimen/font" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1.0"
+            android:background="@color/w"
+            android:drawableTop="@mipmap/five4"
+            android:gravity="center"
+            android:text="消息"
+            android:textSize="@dimen/font" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1.0"
+            android:background="@color/w"
+            android:drawableTop="@mipmap/five2"
+            android:gravity="center"
+            android:text="附近"
+            android:textSize="@dimen/font" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1.0"
+            android:background="@color/w"
+            android:drawableTop="@mipmap/five1"
+            android:gravity="center"
+            android:text="我"
+            android:textSize="@dimen/font" />
+
+    </LinearLayout>
+</RelativeLayout>
