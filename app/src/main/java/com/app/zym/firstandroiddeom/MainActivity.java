@@ -15,6 +15,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_qing_gan);
+        setContentView(R.layout.activity_wo_de);
     }
 }

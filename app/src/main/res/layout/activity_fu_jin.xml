@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/tv_z"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="附近"
+        android:textColor="@color/w"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+        android:textSize="@dimen/font"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/icon_search_50"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <ScrollView
+        android:layout_below="@id/tv_z"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <RelativeLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@mipmap/as"/>
+
+        </RelativeLayout>
+            <LinearLayout
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="蚊子"/>
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="28岁"
+                    android:textSize="@dimen/Fonts"
+                    android:drawableLeft="@mipmap/icon_female"
+                    android:gravity="center"/>
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:text="我是一个大大咧咧，体贴我是一个大大咧咧，体贴我是一个大大咧咧，体贴我是一个大大咧咧，体贴我是一个大大咧咧，体贴"
+                    android:textSize="@dimen/Fonts"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_marginLeft="30dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="聊一聊"
+                        android:textSize="@dimen/Fonts"
+                        android:drawableLeft="@mipmap/chat_icon_chat"
+                        android:gravity="center"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="广东-深圳"
+                        android:textSize="@dimen/Fonts"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6.72km"
+                        android:textSize="@dimen/Fonts"
+                        android:drawableLeft="@mipmap/chat_icon_location"
+                        android:gravity="center"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/w">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1.0"
+            android:background="@color/w"
+            android:drawableTop="@mipmap/five3"
+            android:gravity="center"
+            android:text="首页"
+            android:textSize="@dimen/font" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1.0"
+            android:background="@color/w"
+            android:drawableTop="@mipmap/five5"
+            android:gravity="center"
+            android:text="情感"
+            android:textSize="@dimen/font" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1.0"
+            android:background="@color/w"
+            android:drawableTop="@mipmap/five4"
+            android:gravity="center"
+            android:text="消息"
+            android:textSize="@dimen/font" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1.0"
+            android:background="@color/w"
+            android:drawableTop="@mipmap/five2"
+            android:gravity="center"
+            android:text="附近"
+            android:textSize="@dimen/font" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1.0"
+            android:background="@color/w"
+            android:drawableTop="@mipmap/five1"
+            android:gravity="center"
+            android:text="我"
+            android:textSize="@dimen/font" />
+
+    </LinearLayout>
+</RelativeLayout>

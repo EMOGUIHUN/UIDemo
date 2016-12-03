@@ -13,6 +13,7 @@
         android:layout_height="50dp"
         android:text="情感"
         android:gravity="center_horizontal|center_vertical"
+
         android:background="@color/colorAccent"
         android:textColor="@color/w"
         android:textSize="@dimen/font"/>
@@ -58,12 +59,15 @@
            </RelativeLayout>
        </LinearLayout>
    </LinearLayout>
+
     <ScrollView
         android:layout_below="@id/tv_ong"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/w">
         <LinearLayout
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -86,12 +90,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:src="@mipmap/jp"/>
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:src="@mipmap/qw"/>
                 </LinearLayout>
 
@@ -99,6 +104,8 @@
             </RelativeLayout>
 
             <RelativeLayout
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <LinearLayout
@@ -127,29 +134,51 @@
                  android:layout_centerVertical="true"
                  android:layout_alignParentRight="true"
                  android:orientation="horizontal"
-                 android:layout_width="100dp"
+                 android:layout_width="wrap_content"
                  android:layout_height="match_parent">
                  <ImageView
                      android:layout_width="15dp"
                      android:layout_height="15dp"
-                     android:src="@mipmap/cx"
+                     android:src="@mipmap/zan"
                      android:layout_gravity="center"/>
                  <TextView
                      android:layout_width="wrap_content"
-                     android:layout_height="15dp"
+                     android:layout_height="wrap_content"
                      android:text="0"
+                     android:layout_gravity="center"
                      android:textSize="@dimen/Fonts"/>
                  <TextView
                      android:layout_width="1dp"
                      android:layout_height="15dp"
                      android:layout_gravity="center"
                      android:background="@color/hei_se"/>
+                 <ImageView
+                     android:layout_width="15dp"
+                     android:layout_height="15dp"
+                     android:src="@mipmap/discuss"
+                     android:layout_gravity="center"/>
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="0"
+                     android:layout_gravity="center"
+                     android:textSize="@dimen/Fonts"/>
+                 <TextView
+                     android:layout_width="1dp"
+                     android:layout_height="15dp"
+                     android:layout_gravity="center"
+                     android:background="@color/hei_se"/>
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="441天前"
+                     android:textSize="@dimen/Fonts"/>
              </LinearLayout>
             </RelativeLayout>
-
         </LinearLayout>
-
     </ScrollView>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
@@ -209,4 +238,5 @@
             android:textSize="@dimen/font" />
 
     </LinearLayout>
+
 </RelativeLayout>
