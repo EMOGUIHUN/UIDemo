@@ -48,7 +48,7 @@ public class ShowUserInfoAdapter extends BaseAdapter {
         ViewHolder viewHolder;
         if(convertView == null){
             viewHolder = new ViewHolder();
-            convertView = mInflater.inflate(layout, null);//讲xml文件转换为View对象
+            convertView = mInflater.inflate(layout, null);//将xml文件转换为View对象
             viewHolder.ivHead = (ImageView) convertView.findViewById(R.id.iv_head);
             viewHolder.tvName = (TextView) convertView.findViewById(R.id.tv_name);
             viewHolder.tvAge = (TextView) convertView.findViewById(R.id.tv_age);
