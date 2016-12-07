@@ -2,7 +2,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
     <TextView
         android:id="@+id/tv_title"
         android:layout_width="match_parent"
@@ -12,8 +11,6 @@
         android:textColor="@color/w"
         android:gravity="center_horizontal|center_vertical"
         android:background="@color/colorAccent"/>
-
-
     <LinearLayout
         android:id="@+id/ll_bottom"
         android:layout_width="match_parent"
@@ -74,7 +71,6 @@
             android:textSize="@dimen/font" />
 
     </LinearLayout>
-
     <ScrollView
         android:layout_below="@id/tv_title"
         android:layout_above="@id/ll_bottom"
@@ -87,8 +83,8 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
             <RelativeLayout
+                android:layout_marginLeft="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <ImageView
@@ -184,6 +180,7 @@
                     android:layout_height="30dp"
                     android:src="@mipmap/me_icon_in"
                     android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/Rilth"
                     android:layout_centerVertical="true"/>
             </RelativeLayout>
             <TextView
@@ -210,6 +207,7 @@
                     android:layout_height="30dp"
                     android:src="@mipmap/me_icon_in"
                     android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/Rilth"
                     android:layout_centerVertical="true"/>
             </RelativeLayout>
             <TextView
@@ -236,6 +234,7 @@
                     android:layout_height="30dp"
                     android:src="@mipmap/me_icon_in"
                     android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/Rilth"
                     android:layout_centerVertical="true"/>
             </RelativeLayout>
             <TextView
@@ -262,6 +261,7 @@
                     android:layout_height="30dp"
                     android:src="@mipmap/me_icon_in"
                     android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/Rilth"
                     android:layout_centerVertical="true"/>
             </RelativeLayout>
             <TextView
@@ -288,6 +288,7 @@
                     android:layout_height="30dp"
                     android:src="@mipmap/me_icon_in"
                     android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/Rilth"
                     android:layout_centerVertical="true"/>
             </RelativeLayout>
             <TextView
@@ -314,6 +315,7 @@
                     android:layout_height="30dp"
                     android:src="@mipmap/me_icon_in"
                     android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/Rilth"
                     android:layout_centerVertical="true"/>
             </RelativeLayout>
             <TextView
@@ -341,6 +343,7 @@
                     android:layout_height="30dp"
                     android:src="@mipmap/me_icon_in"
                     android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/Rilth"
                     android:layout_centerVertical="true"/>
             </RelativeLayout>
             <TextView
@@ -348,6 +351,5 @@
                 android:layout_height="@dimen/xiao_bian"
                 android:background="@color/w"/>
         </LinearLayout>
-
     </ScrollView>
 </RelativeLayout>

@@ -5,7 +5,8 @@
 
     <dimen name="app_main_home">55dp</dimen>
     <dimen name="xiao_bian">0.5dp</dimen>
-    <dimen name="da_bian">10dp</dimen>
+    <dimen name="da_bian">20dp</dimen>
     <dimen name="app_main_ome">5dp</dimen>
     <dimen name="app_main_me">5dp</dimen>
+    <dimen name="Rilth">20dp</dimen>
 </resources>

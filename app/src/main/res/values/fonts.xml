@@ -3,5 +3,6 @@
 
     <dimen name="font">20sp</dimen>
     <dimen name="Fonts">12sp</dimen>
+    <dimen name="size">15sp</dimen>
 
 </resources>
