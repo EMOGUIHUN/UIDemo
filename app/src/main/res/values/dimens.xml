@@ -8,5 +8,5 @@
     <dimen name="da_bian">20dp</dimen>
     <dimen name="app_main_ome">5dp</dimen>
     <dimen name="app_main_me">5dp</dimen>
-    <dimen name="Rilth">20dp</dimen>
+    <dimen name="Rilth">30dp</dimen>
 </resources>
