@@ -1,6 +1,7 @@
 package com.app.zym.firstandroiddeom;
 
 import android.content.Context;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -44,7 +45,7 @@ public class ActivitymeAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         ViewHolder viewHolder;
         if(convertView==null){
-            viewHolder=new ViewHolder();
+            viewHolder=new ViewHolder(parent);
             convertView = mInflater.inflate(layout,null);
             viewHolder.ivIcon = (ImageView) convertView.findViewById(R.id.iv_icon);
             viewHolder.tvSlogan  = (TextView) convertView.findViewById(R.id.tv_slogan);
@@ -57,8 +58,12 @@ public class ActivitymeAdapter extends BaseAdapter {
         viewHolder.tvSlogan.setText(mi.slogan);
         return convertView;
     }
-    static class ViewHolder{
+    public static class ViewHolder extends RecyclerView.ViewHolder {
         public ImageView ivIcon;
         public TextView tvSlogan;
+
+        public ViewHolder(View itemView) {
+            super(itemView);
+        }
     }
 }
