@@ -66,7 +66,6 @@ public class ActivityGvAdapter extends BaseAdapter {
         lp.width = (width - dip2px(context,3)*2)/3 ;
         lp.height = lp.width;
         viewHolder.ivHead.setLayoutParams(lp);
-
         viewHolder.tvName.setText(user.name);
         return convertView;
     }
